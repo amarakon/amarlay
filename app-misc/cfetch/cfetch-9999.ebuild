@@ -11,7 +11,7 @@ SLOT="0"
 
 RDEPEND="
 x11-libs/libX11
-x11-libs/libpciacess
+x11-libs/libpciaccess
 "
 
 src_prepare() {
