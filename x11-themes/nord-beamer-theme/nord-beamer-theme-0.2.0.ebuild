@@ -8,6 +8,10 @@ SLOT="0"
 KEYWORDS="amd64 ~riscv x86"
 S="${WORKDIR}/beamerthemeNord-0.2.0"
 
+RDEPEND="
+dev-tex/latex-beamer
+"
+
 src_install() {
 	insinto /usr/share/texmf-site/tex/latex/beamer/base/themes/color
 	doins beamercolorthemeNord.sty
