@@ -9,6 +9,11 @@ EGIT_REPO_URI="https://github.com/Amarakon55/cfetch"
 LICENSE="MIT"
 SLOT="0"
 
+RDEPEND="
+x11-libs/libX11
+x11-libs/libpciacess
+"
+
 src_prepare() {
 	default
 	restore_config config.h
