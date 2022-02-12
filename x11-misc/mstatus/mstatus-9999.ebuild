@@ -10,8 +10,6 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE="minimal"
 
-# fzf/mpv/yt-dlp "can" be optfeatures depending on configuration, but depend
-# on them so it works as expected out-of-the-box while allowing to disable.
 RDEPEND="
 	!minimal? (
 		sys-apps/lm-sensors

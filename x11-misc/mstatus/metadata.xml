@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>amar.al-zubaidi45@tutanota.com</email>
+		<name>Amar Al-Zubaidi</name>
+	</maintainer>
+	<stabilize-allarches/>
+	<use>
+		<flag name="minimal">Skip <pkg>sys-apps/lm-sensors</pkg> and <pkg>app-admin/sysstat</pkg> and <pkg>sys-power/acpi</pkg> dependencies (requires custom settings)</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">Amarakon55/mstatus</remote-id>
+	</upstream>
+</pkgmetadata>
