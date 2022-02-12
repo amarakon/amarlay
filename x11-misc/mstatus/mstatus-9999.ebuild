@@ -31,6 +31,6 @@ src_install() {
 }
 
 pkg_postinst() {
-	#optfeature "color support: https://dwm.suckless.org/patches/status2d"
+	optfeature "color support: https://dwm.suckless.org/patches/status2d"
 	optfeature "icon support" media-fonts/nerd-fonts-inconsolata
 }
