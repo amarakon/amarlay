@@ -32,5 +32,5 @@ src_install() {
 
 pkg_postinst() {
 	elog "color support: https://dwm.suckless.org/patches/status2d"
-	optfeature "icon support" media-fonts/nerd-fonts-inconsolata
+	elog "icon support: emerge media-fonts/nerd-fonts-inconsolata"
 }
