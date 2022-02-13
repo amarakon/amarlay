@@ -5,7 +5,7 @@ inherit optfeature savedconfig toolchain-funcs
 #MY_P=${PN}-${PV}
 DESCRIPTION="A rewrite of neofetch in C. Includes features not seen in other fetch programs."
 HOMEPAGE="https://github.com/Amarakon55/cfetch"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${P}.tar.gz -> ${PV}.tar.gz"
+SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

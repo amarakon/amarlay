@@ -2,7 +2,7 @@ EAPI=7
 
 DESCRIPTION="Dmenu wrapper for Emerge "
 HOMEPAGE="https://github.com/Amarakon55/dmerge"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${P}.tar.gz -> ${PV}.tar.gz"
+SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
