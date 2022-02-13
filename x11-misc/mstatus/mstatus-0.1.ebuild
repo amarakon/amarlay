@@ -18,6 +18,11 @@ RDEPEND="
 		sys-power/acpi
 	)"
 
+src_prepare(){
+	default
+	restore_config mstatus
+}
+
 src_compile() { :; }
 
 src_install() {
@@ -27,6 +32,7 @@ src_install() {
 	)
 
 	emake "${emakeargs[@]}" install
+	save_config mstatus
 }
 
 pkg_postinst() {
