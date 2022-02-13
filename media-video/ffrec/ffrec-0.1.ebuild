@@ -2,7 +2,7 @@ EAPI=7
 
 DESCRIPTION="POSIX script to record audio and/or display easily using FFmpeg"
 HOMEPAGE="https://github.com/Amarakon55/ffrec"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz"
+SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/v${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
