@@ -9,9 +9,7 @@ EGIT_REPO_URI="https://github.com/Amarakon55/dmerge"
 LICENSE="GPL-2"
 SLOT="0"
 
-RDEPEND="
-	sys-apps/portage
-	)"
+RDEPEND="sys-apps/portage"
 
 src_compile() { :; }
 
