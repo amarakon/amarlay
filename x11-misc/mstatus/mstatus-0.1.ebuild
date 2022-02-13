@@ -1,6 +1,6 @@
 EAPI=7
 
-inherit optfeature
+inherit optfeature savedconfig toolchain_funcs
 
 DESCRIPTION="Minimal status program for DWM preconfigured out of the box"
 HOMEPAGE="https://github.com/Amarakon55/mstatus"
