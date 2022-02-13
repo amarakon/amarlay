@@ -8,7 +8,6 @@ EGIT_REPO_URI="https://github.com/Amarakon55/ffrec"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="minimal"
 
 RDEPEND="
 	media-video/ffmpeg
