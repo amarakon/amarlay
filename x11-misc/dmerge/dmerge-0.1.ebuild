@@ -1,17 +1,14 @@
 EAPI=7
 
-DESCRIPTION="POSIX script to record audio and/or display easily using FFmpeg"
-HOMEPAGE="https://github.com/Amarakon55/ffrec"
+DESCRIPTION="Dmenu wrapper for Emerge "
+HOMEPAGE="https://github.com/Amarakon55/dmerge"
 SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-RDEPEND="
-	media-video/ffmpeg
-	x11-apps/xrandr
-"
+RDEPEND="sys-apps/portage"
 
 src_compile() { :; }
 
