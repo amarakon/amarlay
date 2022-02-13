@@ -11,7 +11,7 @@ KEYWORDS="amd64 x86"
 RDEPEND="
 	media-video/ffmpeg
 	x11-apps/xrandr
-	"
+"
 
 src_compile() { :; }
 
