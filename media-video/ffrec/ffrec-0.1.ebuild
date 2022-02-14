@@ -1,7 +1,5 @@
 EAPI=7
 
-inherit savedconfig
-
 DESCRIPTION="POSIX script to record audio and/or display easily using FFmpeg"
 HOMEPAGE="https://github.com/Amarakon55/ffrec"
 SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
@@ -15,11 +13,6 @@ RDEPEND="
 	x11-apps/xrandr
 "
 
-src_prepare() {
-	default
-	restore_config ffrec
-}
-
 src_compile() { :; }
 
 src_install() {
@@ -29,5 +22,4 @@ src_install() {
 	)
 
 	emake "${emakeargs[@]}" install
-	save_config ffrec
 }
