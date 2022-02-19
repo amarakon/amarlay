@@ -1,6 +1,6 @@
 EAPI=7
 
-DESCRIPTION="Manage files using Dmenu"
+DESCRIPTION="A pandoc LaTeX template to convert markdown files to PDF or LaTeX."
 HOMEPAGE="https://github.com/Wandmalfarbe/pandoc-latex-template"
 EGIT_REPO_URI="https://github.com/Wandmalfarbe/pandoc-latex-template"
 
