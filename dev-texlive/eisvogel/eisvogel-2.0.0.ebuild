@@ -15,6 +15,6 @@ dev-texlive/texlive-xetex
 "
 
 src_install() {
-	insinto $HOME/.local/share/pandoc/templates
+	insinto /home/amarakon/.local/share/pandoc/templates
 	doins eisvogel.latex
 }
