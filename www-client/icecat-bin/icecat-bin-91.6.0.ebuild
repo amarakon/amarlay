@@ -11,6 +11,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 S="${WORKDIR}"
 
+RDEPEND="dev-libs/nspr"
+
 src_install() {
 	insinto /usr
 	doins -r usr/lib
