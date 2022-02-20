@@ -12,7 +12,7 @@ KEYWORDS="amd64 x86"
 S="${WORKDIR}"
 
 src_install() {
-	insinto /usr/
+	insinto /usr
 	doins -r usr/lib/
 	doins -r usr/share/
 }
