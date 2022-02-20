@@ -13,10 +13,11 @@ S="${WORKDIR}"
 
 src_install() {
 	insinto /usr
-	doins -r usr/lib/
-	doins -r usr/share/
+	doins -r usr/lib
+	doins -r usr/share
 }
 
 pkg_postinst() {
+	chmod 755 /usr/lib/icecat/icecat-bin
 	ln -sf /usr/lib/icecat/icecat-bin /usr/bin
 }
