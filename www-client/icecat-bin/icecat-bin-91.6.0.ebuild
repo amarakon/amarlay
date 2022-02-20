@@ -18,10 +18,6 @@ src_install() {
 }
 
 pkg_postinst() {
-	chmod 755 \
-		/usr/lib/icecat/icecat*
-		/usr/lib/icecat/pingsender
-		/usr/lib/icecat/plugin-container
-		/usr/lib/icecat/*.so
+	chmod 755 /usr/lib/icecat/icecat* /usr/lib/icecat/pingsender /usr/lib/icecat/plugin-container /usr/lib/icecat/*.so
 	ln -sf /usr/lib/icecat/icecat-bin /usr/bin
 }
