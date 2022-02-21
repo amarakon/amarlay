@@ -1,5 +1,7 @@
 EAPI=7
 
+inherit git-r3
+
 DESCRIPTION="Manage files using Dmenu"
 HOMEPAGE="https://github.com/Amarakon55/dfm"
 EGIT_REPO_URI="https://github.com/Amarakon55/dfm"
