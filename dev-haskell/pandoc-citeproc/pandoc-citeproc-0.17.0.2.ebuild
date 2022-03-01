@@ -20,7 +20,7 @@ IUSE="+bibutils debug embed-data-files static unicode-collation"
 
 RESTRICT=test # tests fail when system already has pandoc-citeproc installed
 
-RDEPEND=">=app-text/pandoc-bin-2.8:=[profile?] <app-text/pandoc-bin-2.11:=[profile?]
+RDEPEND=">=app-text/pandoc-bin-2.8 <app-text/pandoc-bin-2.11
 	>=dev-haskell/aeson-0.7:=[profile?] <dev-haskell/aeson-1.6:=[profile?]
 	>=dev-haskell/aeson-pretty-0.8:=[profile?]
 	dev-haskell/attoparsec:=[profile?]
