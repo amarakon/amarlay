@@ -5,7 +5,6 @@ inherit git-r3 nvim-plugin optfeature
 MY_PN=vim-${PN}
 MY_P=${MY_PN}-${PV}
 EGIT_REPO_URI="https://github.com/vim-pandoc/${MY_PN}"
-S=${WORKDIR}/${MY_P}
 
 DESCRIPTION="VIM plugin: pandoc markdown syntax"
 HOMEPAGE="https://github.com/vim-pandoc/vim-pandoc-syntax"
