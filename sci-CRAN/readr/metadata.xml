@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read Rectangular Text Data // The goal of 'readr' is to provide a
+		fast and friendly way to read rectangular data (like 'csv',
+		'tsv', and 'fwf').  It is designed to flexibly parse many types
+		of data found in the wild, while still cleanly failing when
+		data unexpectedly changes.
+	</longdescription>
+</pkgmetadata>
