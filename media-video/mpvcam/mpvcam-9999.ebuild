@@ -1,4 +1,4 @@
-EAPI=8
+EAPI=7
 
 inherit git-r3
 
