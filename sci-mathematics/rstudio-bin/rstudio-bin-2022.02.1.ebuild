@@ -20,5 +20,6 @@ src_install() {
 }
 
 pkg_postinst() {
-	ln -sf /usr/lib/rstudio/bin/rstudio /usr/bin
+	chmod 755 * postback/*
+	ln -sf /usr/lib/rstudio/bin/rstudio /usr/bin/rstudio-bin
 }
