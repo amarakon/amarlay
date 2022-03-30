@@ -9,14 +9,14 @@ SRC_URI="https://builds.garudalinux.org/repos/chaotic-aur/x86_64/rstudio-desktop
 LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="amd64"
-#S="${WORKDIR}"
+S="$WORKDIR/usr"
 
 #RDEPEND="dev-libs/nspr"
 
 src_install() {
 	insinto /usr
-	doins -r usr/lib
-	doins -r usr/share
+	doins -r lib
+	doins -r share
 }
 
 pkg_postinst() {
