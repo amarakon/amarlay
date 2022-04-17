@@ -7,7 +7,7 @@ HOMEPAGE="https://github.com/Bugswriter/notflix"
 EGIT_REPO_URI="https://github.com/Bugswriter/notflix"
 
 LICENSE="GPL-3"
-#SLOT="0"
+SLOT="0"
 
 #src_compile() { :; }
 
