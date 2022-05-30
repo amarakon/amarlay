@@ -10,7 +10,7 @@ S="${WORKDIR}/beamerthemeNord-${PV}"
 
 RDEPEND="dev-tex/latex-beamer"
 
-src_compile() { : }
+src_compile() { :; }
 
 src_install() {
 	insinto /usr/share/texmf-site/tex/latex/beamer/base/themes/color
