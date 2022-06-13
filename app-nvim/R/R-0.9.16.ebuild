@@ -1,7 +1,9 @@
 # Copyright 2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=7
+
+inherit nvim-plugin
 
 DESCRIPTION="Vim plugin to work with R"
 HOMEPAGE="
