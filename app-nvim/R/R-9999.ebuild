@@ -13,7 +13,6 @@ EGIT_REPO_URI="https://github.com/jalvesaq/Nvim-R"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64"
 VIM_PLUGIN_HELPFILES="${PN}.txt"
 
 DOCS=( README.md )
