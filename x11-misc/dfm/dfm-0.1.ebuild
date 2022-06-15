@@ -1,17 +1,14 @@
 EAPI=7
 
 DESCRIPTION="Manage files using Dmenu"
-HOMEPAGE="https://github.com/Amarakon55/dfm"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/amarakon/dfm"
+SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-RDEPEND="
-app-shells/bash
-x11-misc/dmenu
-"
+RDEPEND="x11-misc/dmenu"
 
 src_compile() { :; }
 
@@ -22,4 +19,8 @@ src_install() {
 	)
 
 	emake "${emakeargs[@]}" install
+}
+
+pkg_postinst() {
+	optfeature "clipboard support" x11-misc/xclip
 }
