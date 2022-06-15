@@ -1,8 +1,8 @@
 EAPI=7
 
 DESCRIPTION="Minimal screenshot utility using ImageMagick, alternative to scrot"
-HOMEPAGE="https://github.com/Amarakon55/magickshot"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/amarakon/magickshot"
+SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

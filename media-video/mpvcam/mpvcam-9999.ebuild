@@ -3,8 +3,8 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="One line POSIX script to play your webcam in mpv with no latency"
-HOMEPAGE="https://github.com/Amarakon55/mpvcam"
-EGIT_REPO_URI="https://github.com/Amarakon55/mpvcam"
+HOMEPAGE="https://github.com/amarakon/mpvcam"
+EGIT_REPO_URI="https://github.com/amarakon/mpvcam"
 
 LICENSE="GPL-2"
 SLOT="0"

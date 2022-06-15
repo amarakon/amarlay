@@ -10,6 +10,6 @@
 		<flag name="minimal">Skip <pkg>sys-apps/lm-sensors</pkg>, <pkg>app-admin/sysstat</pkg>, and <pkg>sys-power/acpi</pkg> dependencies (requires custom settings)</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">Amarakon55/mstatus</remote-id>
+		<remote-id type="github">amarakon/mstatus</remote-id>
 	</upstream>
 </pkgmetadata>

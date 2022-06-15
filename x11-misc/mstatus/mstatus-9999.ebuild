@@ -3,8 +3,8 @@ EAPI=8
 inherit git-r3 optfeature
 
 DESCRIPTION="The most minimal status program for DWM. It comes preconfigured out of the box."
-HOMEPAGE="https://github.com/Amarakon55/mstatus"
-EGIT_REPO_URI="https://github.com/Amarakon55/mstatus"
+HOMEPAGE="https://github.com/amarakon/mstatus"
+EGIT_REPO_URI="https://github.com/amarakon/mstatus"
 
 LICENSE="GPL-2"
 SLOT="0"

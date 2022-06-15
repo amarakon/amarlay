@@ -1,8 +1,8 @@
 EAPI=7
 
 DESCRIPTION="Manage loginD from Dmenu"
-HOMEPAGE="https://github.com/Amarakon55/dlogin"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/amarakon/dlogin"
+SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

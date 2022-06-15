@@ -1,8 +1,8 @@
 EAPI=7
 
 DESCRIPTION="Toggle Touchpad On and Off"
-HOMEPAGE="https://github.com/Amarakon55/touchtog"
-EGIT_REPO_URI="https://github.com/Amarakon55/touchtog"
+HOMEPAGE="https://github.com/amarakon/touchtog"
+EGIT_REPO_URI="https://github.com/amarakon/touchtog"
 
 LICENSE="GPL-2"
 SLOT="0"

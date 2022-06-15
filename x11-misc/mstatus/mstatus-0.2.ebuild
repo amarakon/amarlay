@@ -3,8 +3,8 @@ EAPI=7
 inherit optfeature savedconfig
 
 DESCRIPTION="Minimal status program for DWM preconfigured out of the box"
-HOMEPAGE="https://github.com/Amarakon55/mstatus"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/amarakon/mstatus"
+SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

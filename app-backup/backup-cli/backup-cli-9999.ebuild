@@ -3,8 +3,8 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="Create easy system backups from the command line"
-HOMEPAGE="https://github.com/Amarakon55/backup-cli"
-EGIT_REPO_URI="https://github.com/Amarakon55/backup-cli"
+HOMEPAGE="https://github.com/amarakon/backup-cli"
+EGIT_REPO_URI="https://github.com/amarakon/backup-cli"
 
 LICENSE="GPL-2"
 SLOT="0"

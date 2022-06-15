@@ -3,8 +3,8 @@ EAPI=7
 inherit git-r3 optfeature savedconfig toolchain-funcs
 
 DESCRIPTION="A rewrite of neofetch in C. Includes features not seen in other fetch programs."
-HOMEPAGE="https://github.com/Amarakon55/cfetch"
-EGIT_REPO_URI="https://github.com/Amarakon55/cfetch"
+HOMEPAGE="https://github.com/amarakon/cfetch"
+EGIT_REPO_URI="https://github.com/amarakon/cfetch"
 
 LICENSE="MIT"
 SLOT="0"

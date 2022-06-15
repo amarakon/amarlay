@@ -3,8 +3,8 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="Minimal screenshot utility using ImageMagick, alternative to scrot"
-HOMEPAGE="https://github.com/Amarakon55/magickshot"
-EGIT_REPO_URI="https://github.com/Amarakon55/magickshot"
+HOMEPAGE="https://github.com/amarakon/magickshot"
+EGIT_REPO_URI="https://github.com/amarakon/magickshot"
 
 LICENSE="GPL-2"
 SLOT="0"

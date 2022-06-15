@@ -3,8 +3,8 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="Manage loginD from Dmenu"
-HOMEPAGE="https://github.com/Amarakon55/dlogin"
-EGIT_REPO_URI="https://github.com/Amarakon55/dlogin"
+HOMEPAGE="https://github.com/amarakon/dlogin"
+EGIT_REPO_URI="https://github.com/amarakon/dlogin"
 
 LICENSE="GPL-2"
 SLOT="0"

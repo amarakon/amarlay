@@ -1,8 +1,8 @@
 EAPI=7
 
 DESCRIPTION="Dmenu prompt to select an emoji to copy to the clipboard"
-HOMEPAGE="https://github.com/Amarakon55/dmoji"
-SRC_URI="https://github.com/Amarakon55/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+HOMEPAGE="https://github.com/amarakon/dmoji"
+SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
