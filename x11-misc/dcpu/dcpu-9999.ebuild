@@ -9,7 +9,7 @@ EGIT_REPO_URI="https://github.com/amarakon/dcpu"
 LICENSE="GPL-2"
 SLOT="0"
 
-RDEPEND="sys-apps/cpu-cli"
+RDEPEND="sys-power/cpupower"
 
 src_compile() { :; }
 
