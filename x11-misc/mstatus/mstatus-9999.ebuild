@@ -13,7 +13,7 @@ IUSE="minimal"
 RDEPEND="
 	!minimal? (
 		sys-apps/lm-sensors
-		app-admin/sysstat
+		sys-power/cpupower
 		sys-power/acpi
 	)"
 
