@@ -1,7 +1,7 @@
 EAPI=7
 
-DESCRIPTION="Run R expressions in Dmenu"
-HOMEPAGE="https://github.com/amarakon/rmenu"
+DESCRIPTION="Simple dmenu calculator"
+HOMEPAGE="https://github.com/amarakon/cmenu"
 SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${PN}.tar.gz"
 
 LICENSE="GPL-2"

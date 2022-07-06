@@ -2,9 +2,9 @@ EAPI=7
 
 inherit git-r3
 
-DESCRIPTION="Run R expressions in Dmenu"
-HOMEPAGE="https://github.com/amarakon/rmenu"
-EGIT_REPO_URI="https://github.com/amarakon/rmenu"
+DESCRIPTION="Simple dmenu calculator"
+HOMEPAGE="https://github.com/amarakon/cmenu"
+EGIT_REPO_URI="https://github.com/amarakon/cmenu"
 
 LICENSE="GPL-2"
 SLOT="0"
