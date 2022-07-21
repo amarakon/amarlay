@@ -8,12 +8,8 @@ EGIT_REPO_URI="https://github.com/amarakon/dlogin"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="minimal"
 
-RDEPEND="
-	x11-misc/dmenu
-	sys-auth/elogind
-"
+RDEPEND="x11-misc/dmenu"
 
 src_compile() { :; }
 
