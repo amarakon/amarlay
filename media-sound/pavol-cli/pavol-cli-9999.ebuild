@@ -6,7 +6,7 @@ DESCRIPTION="Easily control PulseAudio volume from the command-line"
 HOMEPAGE="https://github.com/amarakon/pavol-cli"
 EGIT_REPO_URI="https://github.com/amarakon/pavol-cli"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="media-sound/pulseaudio"

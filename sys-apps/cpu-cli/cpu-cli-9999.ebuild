@@ -6,7 +6,7 @@ DESCRIPTION="Manage CPU settings through the command-line"
 HOMEPAGE="https://github.com/amarakon/cpu-cli"
 EGIT_REPO_URI="https://github.com/amarakon/cpu-cli"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 src_compile() { :; }

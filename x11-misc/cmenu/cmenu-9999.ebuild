@@ -6,7 +6,7 @@ DESCRIPTION="Simple dmenu calculator"
 HOMEPAGE="https://github.com/amarakon/cmenu"
 EGIT_REPO_URI="https://github.com/amarakon/cmenu"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="x11-misc/dmenu"

@@ -6,7 +6,7 @@ DESCRIPTION="Manage CPU settings through Dmenu"
 HOMEPAGE="https://github.com/amarakon/dcpu"
 EGIT_REPO_URI="https://github.com/amarakon/dcpu"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="sys-power/cpupower"

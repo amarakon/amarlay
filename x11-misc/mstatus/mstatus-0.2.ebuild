@@ -6,7 +6,7 @@ DESCRIPTION="Minimal status program for DWM preconfigured out of the box"
 HOMEPAGE="https://github.com/amarakon/mstatus"
 SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 IUSE="minimal"
 KEYWORDS="amd64 x86"

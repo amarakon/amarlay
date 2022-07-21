@@ -4,7 +4,7 @@ DESCRIPTION="One line POSIX script to play your webcam in mpv with no latency"
 HOMEPAGE="https://github.com/amarakon/mpvcam"
 SRC_URI="https://github.com/amarakon/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="amd64 x86"
 

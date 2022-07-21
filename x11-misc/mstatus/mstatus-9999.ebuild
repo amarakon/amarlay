@@ -6,7 +6,7 @@ DESCRIPTION="The most minimal status program for DWM. It comes preconfigured out
 HOMEPAGE="https://github.com/amarakon/mstatus"
 EGIT_REPO_URI="https://github.com/amarakon/mstatus"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 IUSE="minimal"
 

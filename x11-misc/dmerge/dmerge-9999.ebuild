@@ -6,7 +6,7 @@ DESCRIPTION="Dmenu wrapper for Emerge "
 HOMEPAGE="https://github.com/amarakon/dmerge"
 EGIT_REPO_URI="https://github.com/amarakon/dmerge"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="sys-apps/portage"

@@ -6,7 +6,7 @@ DESCRIPTION="Print the current monitor"
 HOMEPAGE="https://github.com/amarakon/printmon"
 EGIT_REPO_URI="https://github.com/amarakon/printmon"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="x11-apps/xrandr x11-misc/xdotool"

@@ -6,7 +6,7 @@ DESCRIPTION="POSIX script to record audio and/or display easily using FFmpeg"
 HOMEPAGE="https://github.com/amarakon/ffrec"
 EGIT_REPO_URI="https://github.com/amarakon/ffrec"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 
 RDEPEND="

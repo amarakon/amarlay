@@ -4,7 +4,7 @@ DESCRIPTION="Toggle Touchpad On and Off"
 HOMEPAGE="https://github.com/amarakon/touchtog"
 EGIT_REPO_URI="https://github.com/amarakon/touchtog"
 
-LICENSE="GPL-2"
+LICENSE="AGPL-3"
 SLOT="0"
 IUSE="minimal"
 
