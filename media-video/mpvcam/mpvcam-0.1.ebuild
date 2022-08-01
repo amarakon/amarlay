@@ -1,3 +1,6 @@
+# Copyright 2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
 EAPI=7
 
 DESCRIPTION="One line POSIX script to play your webcam in mpv with no latency"
